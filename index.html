@@ -3,78 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education Centre - CBSE Board</title>
+    <title>ExcelAce Educational Center</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>ExcelAce</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#courses">Courses</a></li>
-                    <li><a href="#contact">Contact</a></li>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="nav-link">About</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#about-us" class="nav-link">About Us</a></li>
+                    <li><a href="#our-team" class="nav-link">Our Team</a></li>
                 </ul>
-            </nav>
-        </div>
-    </header>
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h2>Welcome to one of the best CBSE Education Centre</h2>
-            <p>Providing quality education from Class 1 to 12</p>
-            <a href="#courses" class="btn-primary">Explore Courses</a>
-        </div>
-    </section>
-    <section id="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>We offer comprehensive education following the CBSE curriculum, focusing on holistic development and academic excellence.</p>
-        </div>
-    </section>
-    <section id="courses">
-        <div class="container">
-            <h2>Courses Offered</h2>
-            <div class="course-list">
-                <div class="course">
-                    <h3>Class 1-5</h3>
-                    <p>Basic education with a focus on fundamental skills and knowledge.</p>
-                </div>
-                <div class="course">
-                    <h3>Class 6-8</h3>
-                    <p>Intermediate education with a deeper dive into core subjects.</p>
-                </div>
-                <div class="course">
-                    <h3>Class 9-10</h3>
-                    <p>Preparation for board exams with extensive subject coverage.</p>
-                </div>
-                <div class="course">
-                    <h3>Class 11-12</h3>
-                    <p>Advanced education and career guidance with subject specialization.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <form id="contact-form">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Education Centre. All rights reserved.</p>
-        </div>
-    </footer>
+            </li>
+            <li><a href="#courses" class="nav-link">Courses</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <section id="home">
+            <h1>Welcome to ExcelAce</h1>
+            <p>Empowering education through excellence.</p>
+        </section>
+        <section id="about-us">
+            <h1>About Us</h1>
+            <br> 
+            <p>Learn about our mission and values.</p>
+        
+        </br>
+        </section>
+        <section id="our-team">
+            <h1>Our Team     </h1>
+        <p>Meet our dedicated team of professionals.</p>
+        </section>
+        <section id="courses">
+            <h1>Courses</h1>
+            <p>Explore the variety of courses we offer.</p>
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>Get in touch with us for more information.</p>
+        </section>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
